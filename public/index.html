@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+	<meta name="description" content="Curso Bootstrap">
+	<meta name="viewport" content="width=device-width, initial-scale=1/">
+	
+	<title>Curso Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsivo">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+	<div class="span8 bloco1">
+		<h1>Corpo</h1>
+		<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit. Similique quos quaerat placeat <em>assumenda</em> a sint, eos maxime optio quibusdam, autem, itaque ab inventore doloremque, voluptas accusamus eaque dolor facere odio.</p>
+
+		<p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quos quaerat placeat assumenda a sint, eos maxime optio quibusdam, autem, itaque ab inventore doloremque, voluptas accusamus eaque dolor facere odio.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quos quaerat placeat assumenda a sint, eos maxime optio quibusdam, autem, itaque ab inventore doloremque, voluptas accusamus eaque dolor facere odio.</p>
+
+		<p class="muted">Frase com enfase</p>
+		<p class="text-warning">Frase com enfase</p>
+		<p class="text-error">Frase com enfase</p>
+		<p class="text-info">Frase com enfase</p>
+		<p class="text-success">Frase com enfase</p>
+
+
+		<abbr title="Atributo" class="initialism"> attr</abbr>
+
+		<blockquote class="pull-right">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur.</p>
+			<small>Alguem famoso <cite>Teste</cite></small>
+		</blockquote>
+
+		
+		<table class="table table-bordered table-hover table-condensed">
+			<caption>Aprovados e Reprovados</caption>
+			<thead>
+				<tr>
+					<th>Numero</th>
+					<th>Nome</th>
+					<th>Nota</th>
+					<th>Situacao</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="success">
+					<td>01</td>
+					<td>Iago</td>
+					<td>10.0</td>
+					<td>Aprovado</td>
+				</tr>
+				<tr class="success">
+					<td>02</td>
+					<td>Joao</td>
+					<td>8.0</td>
+					<td>Aprovado</td>
+				</tr>
+				<tr class="error">
+					<td>03</td>
+					<td>Maria</td>
+					<td>5</td>
+					<td>Reprovado</td>
+				</tr>
+				<tr class="success">
+					<td>04</td>
+					<td>Alana</td>
+					<td>6.0</td>
+					<td>Aprovado</td>
+				</tr>
+				<tr class="warning">
+					<td>05</td>
+					<td>Iago</td>
+					<td>5.5</td>
+					<td>Recuperação</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<form action="">
+			<input type="text" class="input-block-level">
+		</form>
+		<form action="">
+			<input class="input-mini"    type="text" placeholder="campo de texto"><br>
+			<input class="input-small"   type="text" placeholder="campo de texto"><br>
+			<input class="input-medium"  type="text" placeholder="campo de texto"><br>
+			<input class="input-large"   type="text" placeholder="campo de texto"><br>
+			<input class="input-xlarge"  type="text" placeholder="campo de texto"><br>
+			<span class="uneditable-input">input desabilitado</span>
+			<div class="input-append">
+				<input class="input-xxlarge" type="text" placeholder="campo de texto">
+				<button class="btn">Entrar</button>
+				<button class="btn">Sair</button>
+			</div>
+		</form>
+
+		<form action="">
+		<div class="controls input-prepend">
+			<span class="add-on"><i class="icon-user"></i></span>
+			<input type="text" class="span5" id="prependInput" placeholder="Nome de usuário">
+		</div>	
+		<div class="controls controls-row">
+			<input type="text" class="span4">
+			<div class="input-append">
+				<input type="text" class="span1" id="appendInput">
+				<span class="add-on"><i class="icon-search"></i></span>
+			</div>
+		</div>	
+		</form>
+
+		<form action="" class="form-horizontal">
+			<div class="control-group">
+					<label for="" class="control-label">Email</label>
+					<div class="controls">
+						<input type="email" id="inputEmail" required>
+				    </div>
+			</div>
+			<div class="control-group">
+					<label for="" class="control-label">Senha</label>
+					<div class="controls">
+						<input type="text" id="inputPassword" disabled>
+						<button class="btn">Entrar</button>
+					</div>
+			</div>
+		
+		
+		<div class="control-group warning">
+			<label for="" class="control-label"> Input com aviso</label>
+			<div class="controls">
+				<input type="text">
+				<span class="help-inline"> Alguma coisa deu errado</span>
+			</div>
+		</div>
+		<div class="control-group error">
+			<label for="" class="control-label"> Input com erro</label>
+			<div class="controls">
+				<input type="text">
+				<span class="help-inline"> Corriga</span>
+			</div>
+		</div>
+		<div class="control-group info">
+			<label for="" class="control-label"> Input co informação</label>
+			<div class="controls">
+				<input type="text">
+				<span class="help-inline">Campo obrigatorio</span>
+			</div>
+		</div>
+		<div class="control-group success">
+			<label for="" class="control-label"> Input com sucesso</label>
+			<div class="controls">
+				<input type="text">
+				<span class="help-inline"> Tudo ok</span>
+			</div>
+		</div>
+		</form>
+
+		<div>
+			<img class="img-rounded" src="img/passaro.jpg"/>
+			<img class="img-circle"  src="img/passaro.jpg"/>
+			<img class="polaroid"    src="img/passaro.jpg"/>
+		</div>
+
+	</div>
+	
+
+<!--Barra Lateral-->
+
+	<div class="span4 bloco2">
+	<h1>Barra Lateral</h1>
+
+		<form action="" class="form-search">
+			<input type="text" class="input-medium search-query">
+			<button class="btn">Busca</button>
+		</form>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, eos obcaecati! Itaque in sed exercitationem obcaecati id, tempore quibusdam unde soluta voluptatibus, possimus, nisi excepturi laudantium repellendus sapiente modi cupiditate.</p>
+
+		<ul class="unstyled">
+			<li><i class="icon-music icon-white"></i> Menu 1 </li>
+			<li><i class="icon-camera"></i> Menu 2 </li>
+			<li><i class="icon-refresh"></i> Menu 3 </li>
+				<ul>
+					<li>SubMenu 1</li>
+					<li>SubMenu 2</li>
+					<li>SubMenu 3</li>
+				</ul>
+			<li><i class="icon-tags"></i> Menu 4</li>
+			<li><i class="icon-print"></i> Menu 5</li>
+		</ul>
+
+		<ol class="inline">
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+			<li>Menu 5</li>
+		</ol>
+
+		<dl class="dl-horizontal">
+			<dt>Item 1</dt>
+			<dd>Descricao 1</dd>
+			<dt>Item 2</dt>
+			<dd>Descricao 2</dd>
+			<dt>Item 3</dt>
+			<dd>Descricao 3</dd>
+			<dt>Item 4</dt>
+			<dd>Descricao 4</dd>
+		</dl>
+		
+		<div class="btn-toolbar">
+			<div class="btn-group">
+				<a href="" class="btn"><i class="icon-align-left"></i></a>
+				<a href="" class="btn"><i class="icon-align-center"></i></a>
+				<a href="" class="btn"><i class="icon-align-right"></i></a>
+				<a href="" class="btn"><i class="icon-align-justify"></i></a>
+				<a href="" class="btn"><i class="icon-align-justify"></i>Site</a>
+			</div>
+		</div>
+
+		<form action="" class="form-inline">
+			<input type="text" class="input-small" placeholder="Email">
+			<input type="text" class="input-small" placeholder="Senha">
+			<button class="btn">Entrar</button>
+		</form>
+
+		<a href="" class="btn">link</a>
+		<button class="btn">Botão</button>
+		<input 	class="btn" type="button" value="Input">
+		<input  class="btn" type="submit" value="Enviar">
+
+		<div>
+			<button class="btn btn-large">Padrão</button><br>
+			<button class="btn btn-primary btn-small">Primario</button><br>
+			<button class="btn btn-info btn-mini">Informações</button><br>
+			<button class="btn btn-success btn-block">Sucesso</button><br>
+			<button class="btn btn-warning disabled">Aviso</button><br>
+			<button class="btn btn-danger"><i class="icon-fire icon-white"></i> Perigo</button><br>
+			<button class="btn btn-inverse">Inverso</button><br>
+			<button class="btn btn-link">Link</button>
+		</div>
+
+    </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/bootstrap.js"></script>	
+</body>
+</html>
